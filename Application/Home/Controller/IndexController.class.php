@@ -8,6 +8,7 @@ class IndexController extends Controller
 {
     public function index()
     {
+//        \Think\Build::buildController('Home','User');
         $this->assign('title',"标题");
         $this->display();
     }
